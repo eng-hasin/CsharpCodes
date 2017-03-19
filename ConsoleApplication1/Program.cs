@@ -10,6 +10,8 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+
+            // show yesterday,today, tomorrow days
             DateTime yesterday = DateTime.Now.AddDays(-1);
             DateTime today = DateTime.Today;
             DateTime tomorrow = DateTime.Now.AddDays(1);
